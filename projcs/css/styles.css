@@ -1,0 +1,166 @@
+/*CSS RESET*/
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* img {
+    border-radius: 8px;
+    width: 10px;
+} */
+/*CSS Variables*/
+:root {
+    --navbar-height: 59px;
+
+}
+
+/*navigation Bar*/
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+/*navigation Bar logo and image*/
+#logo {
+    margin: 3px 5px;
+}
+
+#logo img {
+    margin: 2px 7px;
+    height: 58px;
+    border-radius: 50%;
+}
+
+#navbarBrand1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    margin: 4px 250px 4px 50px;
+}
+
+/*navigation Bar list styling*/
+#navbar {
+    position: relative;
+
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#nav-items {
+    text-align: right;
+}
+
+#navbar::before {
+    content: "";
+    /* background-color: black; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: 0.9 rem;
+}
+
+
+#navbar ul li a {
+
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 3px;
+    border: 2px;
+}
+
+#navbar ul li a:hover {
+    background-color: lightblue;
+}
+
+
+
+#home {
+    display: flex;
+    /* flex-direction: column; */
+    background-color: gray;
+}
+
+#home-left {
+    text-align: center;
+    padding: 2%;
+    width: 50%;
+}
+
+#home-left p {
+    padding-top: 4%;
+}
+#home-left-p1
+{
+    color:black;
+    margin-left: 10%;
+    text-align: left;
+}
+#home-left-p2
+{
+    color:white;
+    margin-top: 12%;
+    margin-left:-14px;
+    text-align:justify;
+padding-bottom: 3%;
+}
+#home-left button:hover{
+background-color: lightblue;
+}
+
+#home-right {
+    width: 100%;
+    /* padding: 2%; */
+    margin: 5%;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#home-right h4{
+    width:100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1rem;
+    margin:10px 0 20px;
+}
+
+#home-right h4 span{
+    background-color: white;
+    color: black;
+    padding: 0 10px;
+}
+
+#home-right button{
+    background-color: blue;
+    color:white;
+    width:60%;
+}
+#home-right button:hover{
+    background-color: red;
+    
+}
+
+
+
+.form-email{
+    padding-top:1%;
+    padding-bottom: 1%;
+    /* width: 100%; */
+}
